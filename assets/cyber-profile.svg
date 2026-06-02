@@ -1,0 +1,74 @@
+<svg width="1200" height="1720" viewBox="0 0 1200 1720" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Lyu Zhuojun cyber night GitHub profile">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#030407"/><stop offset="0.48" stop-color="#06111f"/><stop offset="1" stop-color="#050507"/></linearGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#00d992"/><stop offset="0.45" stop-color="#22d3ee"/><stop offset="0.72" stop-color="#818cf8"/><stop offset="1" stop-color="#ec4899"/></linearGradient>
+    <radialGradient id="cyan" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#22d3ee" stop-opacity="0.35"/><stop offset="1" stop-color="#22d3ee" stop-opacity="0"/></radialGradient>
+    <radialGradient id="pink" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#ec4899" stop-opacity="0.22"/><stop offset="1" stop-color="#ec4899" stop-opacity="0"/></radialGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <filter id="soft" x="-30%" y="-30%" width="160%" height="160%"><feDropShadow dx="0" dy="0" stdDeviation="8" flood-color="#00d992" flood-opacity="0.22"/></filter>
+    <pattern id="grid" width="44" height="44" patternUnits="userSpaceOnUse"><path d="M44 0H0V44" fill="none" stroke="#1f2937" stroke-width="1" opacity="0.62"/></pattern>
+    <style>
+      .mono{font-family:'SFMono-Regular','Consolas','Liberation Mono',monospace}.sans{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif}.hero{font:800 68px -apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif;letter-spacing:-2px;fill:#f2f2f2}.sub{font:700 27px 'Consolas','Liberation Mono',monospace;fill:#67e8f9}.muted{fill:#b8b3b0}.tiny{font:700 14px 'Consolas','Liberation Mono',monospace;fill:#00d992;letter-spacing:1.1px}.h2{font:800 32px -apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif;fill:#f2f2f2}.body{font:500 19px -apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif;fill:#d8dee9}.code{font:500 18px 'Consolas','Liberation Mono',monospace;fill:#d8dee9}.card{fill:#101010;stroke:#3d3a39;stroke-width:1.5}.hi{stroke:url(#line);stroke-width:2;filter:url(#glow)}.tagText{font:700 13px 'Consolas','Liberation Mono',monospace;fill:#a7f3d0}.repo{font:800 23px -apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif;fill:#f2f2f2}.desc{font:500 16px -apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif;fill:#b8b3b0}.meterLabel{font:700 17px 'Consolas','Liberation Mono',monospace;fill:#e5e7eb}
+    </style>
+  </defs>
+  <rect width="1200" height="1720" rx="34" fill="url(#bg)"/>
+  <rect width="1200" height="1720" rx="34" fill="url(#grid)" opacity="0.8"/>
+  <circle cx="165" cy="115" r="250" fill="url(#cyan)"/><circle cx="1040" cy="95" r="270" fill="url(#pink)"/><circle cx="995" cy="1480" r="340" fill="url(#cyan)" opacity="0.7"/>
+  <path d="M58 254 C250 120, 402 340, 602 214 S905 96, 1142 245" fill="none" stroke="url(#line)" stroke-width="3" opacity="0.92" filter="url(#glow)"/>
+
+  <g transform="translate(62,54)">
+    <rect width="250" height="40" rx="20" fill="#101010" stroke="#3d3a39"/><circle cx="28" cy="20" r="6" fill="#00d992" filter="url(#glow)"/><text x="48" y="26" class="tiny">github.com/lvzhuojun</text>
+  </g>
+  <text x="62" y="178" class="hero">Lyu Zhuojun</text>
+  <text x="66" y="232" class="sub">AI Builder · ML Systems · Voice &amp; Agent Apps</text>
+  <text x="66" y="286" class="body muted">Recommendation · NLP · LLM Agents · Voice AI · Computer Vision</text>
+
+  <g transform="translate(830,102)">
+    <rect width="286" height="162" rx="18" class="card" filter="url(#soft)"/><circle cx="28" cy="28" r="6" fill="#fb565b"/><circle cx="50" cy="28" r="6" fill="#ffba00"/><circle cx="72" cy="28" r="6" fill="#00d992"/>
+    <text x="28" y="70" class="code" fill="#00d992">&gt; status</text><text x="28" y="104" class="code">building_useful_ai</text><rect x="28" y="126" width="214" height="8" rx="4" fill="url(#line)" filter="url(#glow)"/>
+  </g>
+
+  <g transform="translate(62,360)">
+    <rect width="1076" height="254" rx="24" class="card"/><path class="hi" d="M0 34Q0 0 34 0H1042Q1076 0 1076 34" fill="none"/>
+    <text x="34" y="58" class="h2">👾 About Me</text>
+    <text x="36" y="104" class="code" fill="#00d992">&gt; whoami</text><text x="178" y="104" class="code">AI application developer focused on practical systems.</text>
+    <text x="36" y="144" class="code" fill="#00d992">&gt; focus</text><text x="178" y="144" class="code">LLM Agents | Recommender Systems | NLP | Voice AI | CV</text>
+    <text x="36" y="184" class="code" fill="#00d992">&gt; stack</text><text x="178" y="184" class="code">Python | PyTorch | FastAPI | Streamlit | React | Java | Kotlin</text>
+    <text x="36" y="224" class="code" fill="#00d992">&gt; mission</text><text x="178" y="224" class="code">Turn AI concepts into runnable, deployable projects.</text>
+  </g>
+
+  <g transform="translate(62,666)">
+    <text x="0" y="0" class="h2">⚡ Tech Stack</text>
+    <g transform="translate(0,34)">
+      <rect width="132" height="42" rx="21" fill="#101010" stroke="#00d992"/><text x="26" y="27" class="tagText">Python</text>
+      <rect x="150" width="132" height="42" rx="21" fill="#101010" stroke="#3d3a39"/><text x="178" y="27" class="tagText">PyTorch</text>
+      <rect x="300" width="132" height="42" rx="21" fill="#101010" stroke="#3d3a39"/><text x="328" y="27" class="tagText">FastAPI</text>
+      <rect x="450" width="144" height="42" rx="21" fill="#101010" stroke="#3d3a39"/><text x="474" y="27" class="tagText">Streamlit</text>
+      <rect x="612" width="154" height="42" rx="21" fill="#101010" stroke="#3d3a39"/><text x="636" y="27" class="tagText">HuggingFace</text>
+      <rect x="784" width="112" height="42" rx="21" fill="#101010" stroke="#3d3a39"/><text x="814" y="27" class="tagText">React</text>
+      <rect x="914" width="92" height="42" rx="21" fill="#101010" stroke="#3d3a39"/><text x="944" y="27" class="tagText">Java</text>
+      <rect x="1024" width="102" height="42" rx="21" fill="#101010" stroke="#ec4899"/><text x="1050" y="27" class="tagText">Docker</text>
+    </g>
+  </g>
+
+  <g transform="translate(62,790)">
+    <text x="0" y="0" class="h2">🚀 Featured Projects</text>
+    <g transform="translate(0,36)">
+      <g><rect class="card" width="520" height="150" rx="20"/><path class="hi" d="M0 28Q0 0 28 0H492Q520 0 520 28" fill="none"/><text x="28" y="44" class="repo">🎬 video-recsys-pipeline</text><text x="28" y="78" class="desc">Industrial two-stage video recommendation system.</text><text x="28" y="104" class="desc">Two-Tower recall · Faiss retrieval · DeepFM/DIN ranking</text><text x="28" y="132" class="tagText">Recommendation · PyTorch · Faiss</text></g>
+      <g transform="translate(556,0)"><rect class="card" width="520" height="150" rx="20"/><path class="hi" d="M0 28Q0 0 28 0H492Q520 0 520 28" fill="none"/><text x="28" y="44" class="repo">📊 social-sentiment-tracker</text><text x="28" y="78" class="desc">End-to-end NLP sentiment analysis platform.</text><text x="28" y="104" class="desc">Training workflow · Transformers · Streamlit demo</text><text x="28" y="132" class="tagText">NLP · HuggingFace · Streamlit</text></g>
+      <g transform="translate(0,184)"><rect class="card" width="520" height="150" rx="20"/><path class="hi" d="M0 28Q0 0 28 0H492Q520 0 520 28" fill="none"/><text x="28" y="44" class="repo">🗣️ voice-cloning-service</text><text x="28" y="78" class="desc">GPT-SoVITS v2 voice cloning backend.</text><text x="28" y="104" class="desc">Fine-tuning · model export · REST API service</text><text x="28" y="132" class="tagText">Voice AI · GPT-SoVITS · FastAPI</text></g>
+      <g transform="translate(556,184)"><rect class="card" width="520" height="150" rx="20"/><path class="hi" d="M0 28Q0 0 28 0H492Q520 0 520 28" fill="none"/><text x="28" y="44" class="repo">💬 voice-chat-assistant</text><text x="28" y="78" class="desc">Real-time voice conversation web application.</text><text x="28" y="104" class="desc">Cloned voice pipeline · FastAPI · React frontend</text><text x="28" y="132" class="tagText">Voice Assistant · React · LLM App</text></g>
+      <g transform="translate(0,368)"><rect class="card" width="520" height="150" rx="20"/><path class="hi" d="M0 28Q0 0 28 0H492Q520 0 520 28" fill="none"/><text x="28" y="44" class="repo">🧠 ai-learning-notes</text><text x="28" y="78" class="desc">Bilingual AI learning tutorial and knowledge base.</text><text x="28" y="104" class="desc">ML · DL · NLP · LLM · Agent, interview-oriented</text><text x="28" y="132" class="tagText">AI Learning · LLM · Agent</text></g>
+      <g transform="translate(556,368)"><rect class="card" width="520" height="150" rx="20"/><path class="hi" d="M0 28Q0 0 28 0H492Q520 0 520 28" fill="none"/><text x="28" y="44" class="repo">🧾 banknote_crack_detection</text><text x="28" y="78" class="desc">YOLOv8-based banknote crack detection system.</text><text x="28" y="104" class="desc">Image upload · crack localization · visual dashboard</text><text x="28" y="132" class="tagText">Computer Vision · YOLOv8 · FastAPI</text></g>
+    </g>
+  </g>
+
+  <g transform="translate(62,1392)">
+    <rect width="1076" height="202" rx="24" class="card"/><path class="hi" d="M0 34Q0 0 34 0H1042Q1076 0 1076 34" fill="none"/>
+    <text x="34" y="58" class="h2">🌌 Current Focus</text>
+    <text x="36" y="102" class="meterLabel">AI Systems</text><rect x="260" y="86" width="730" height="18" rx="9" fill="#1f2937"/><rect x="260" y="86" width="694" height="18" rx="9" fill="url(#line)" filter="url(#glow)"/><text x="1010" y="102" class="meterLabel">95%</text>
+    <text x="36" y="136" class="meterLabel">LLM / Agents</text><rect x="260" y="120" width="730" height="18" rx="9" fill="#1f2937"/><rect x="260" y="120" width="657" height="18" rx="9" fill="url(#line)"/><text x="1010" y="136" class="meterLabel">90%</text>
+    <text x="36" y="170" class="meterLabel">NLP &amp; Recsys</text><rect x="260" y="154" width="730" height="18" rx="9" fill="#1f2937"/><rect x="260" y="154" width="621" height="18" rx="9" fill="url(#line)"/><text x="1010" y="170" class="meterLabel">85%</text>
+  </g>
+  <text x="338" y="1660" class="sub" fill="#00d992">Let's build useful AI systems, not just fancy demos.</text>
+</svg>
