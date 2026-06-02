@@ -4,6 +4,12 @@
   </a>
 </p>
 
+<p align="center">
+  <a href="https://lvzhuojun.github.io/lvzhuojun/"><b>⚡ Launch Interactive Portfolio</b></a>
+  ·
+  <a href="./docs/index.html">View source page</a>
+</p>
+
 <!--
   Cyber Night profile README.
   GitHub README cannot change the outer page background, so the main design is rendered
