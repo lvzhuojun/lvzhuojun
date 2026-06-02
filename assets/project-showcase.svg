@@ -1,0 +1,38 @@
+<svg width="1200" height="760" viewBox="0 0 1200 760" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Featured AI projects by Lyu Zhuojun">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#020617"/><stop offset="100%" stop-color="#0f172a"/></linearGradient>
+    <linearGradient id="neon" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#22d3ee"/><stop offset="50%" stop-color="#8b5cf6"/><stop offset="100%" stop-color="#ec4899"/></linearGradient>
+    <filter id="glow"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <style>
+      .title{font:800 34px 'Segoe UI',Arial,sans-serif;fill:#f8fafc}.repo{font:800 23px 'Segoe UI',Arial,sans-serif;fill:#e2e8f0}.desc{font:500 16px 'Segoe UI',Arial,sans-serif;fill:#cbd5e1}.tag{font:700 13px 'Consolas',monospace;fill:#67e8f9}.small{font:600 14px 'Segoe UI',Arial,sans-serif;fill:#94a3b8}.card{fill:#0d1117;stroke:#334155;stroke-width:1.4}.accent{stroke:url(#neon);stroke-width:2.2;filter:url(#glow)}
+    </style>
+  </defs>
+  <rect width="1200" height="760" rx="30" fill="url(#bg)"/>
+  <text x="58" y="68" class="title">Featured Projects</text>
+  <rect x="58" y="88" width="1084" height="3" rx="2" fill="url(#neon)" filter="url(#glow)"/>
+  
+  <g transform="translate(58,124)">
+    <rect class="card" width="520" height="162" rx="22"/><path class="accent" d="M0 28 Q0 0 28 0 H492 Q520 0 520 28" fill="none"/>
+    <text x="28" y="44" class="repo">🎬 video-recsys-pipeline</text><text x="28" y="78" class="desc">Industrial two-stage video recommendation system.</text><text x="28" y="104" class="desc">Two-Tower recall · Faiss retrieval · DeepFM/DIN ranking</text><text x="28" y="136" class="tag">Recommendation · PyTorch · Faiss · CUDA</text>
+  </g>
+  <g transform="translate(622,124)">
+    <rect class="card" width="520" height="162" rx="22"/><path class="accent" d="M0 28 Q0 0 28 0 H492 Q520 0 520 28" fill="none"/>
+    <text x="28" y="44" class="repo">📊 social-sentiment-tracker</text><text x="28" y="78" class="desc">End-to-end NLP sentiment analysis platform.</text><text x="28" y="104" class="desc">Training workflow · Transformers · Streamlit deployment</text><text x="28" y="136" class="tag">NLP · HuggingFace · PyTorch · Streamlit</text>
+  </g>
+  <g transform="translate(58,324)">
+    <rect class="card" width="520" height="162" rx="22"/><path class="accent" d="M0 28 Q0 0 28 0 H492 Q520 0 520 28" fill="none"/>
+    <text x="28" y="44" class="repo">🗣️ voice-cloning-service</text><text x="28" y="78" class="desc">GPT-SoVITS v2 voice cloning backend.</text><text x="28" y="104" class="desc">Real fine-tuning · model export · RESTful service</text><text x="28" y="136" class="tag">Voice AI · GPT-SoVITS · FastAPI</text>
+  </g>
+  <g transform="translate(622,324)">
+    <rect class="card" width="520" height="162" rx="22"/><path class="accent" d="M0 28 Q0 0 28 0 H492 Q520 0 520 28" fill="none"/>
+    <text x="28" y="44" class="repo">💬 voice-chat-assistant</text><text x="28" y="78" class="desc">Real-time voice conversation web application.</text><text x="28" y="104" class="desc">Cloned voice pipeline · FastAPI backend · React frontend</text><text x="28" y="136" class="tag">Voice Assistant · React · LLM App</text>
+  </g>
+  <g transform="translate(58,524)">
+    <rect class="card" width="520" height="162" rx="22"/><path class="accent" d="M0 28 Q0 0 28 0 H492 Q520 0 520 28" fill="none"/>
+    <text x="28" y="44" class="repo">🧠 ai-learning-notes</text><text x="28" y="78" class="desc">Bilingual AI learning tutorial and knowledge base.</text><text x="28" y="104" class="desc">ML · DL · NLP · LLM · Agent, interview-oriented</text><text x="28" y="136" class="tag">AI Learning · LLM · Agent · Bilingual Notes</text>
+  </g>
+  <g transform="translate(622,524)">
+    <rect class="card" width="520" height="162" rx="22"/><path class="accent" d="M0 28 Q0 0 28 0 H492 Q520 0 520 28" fill="none"/>
+    <text x="28" y="44" class="repo">🧾 banknote_crack_detection</text><text x="28" y="78" class="desc">YOLOv8-based banknote crack detection system.</text><text x="28" y="104" class="desc">Image upload · crack localization · statistics dashboard</text><text x="28" y="136" class="tag">Computer Vision · YOLOv8 · FastAPI</text>
+  </g>
+</svg>
